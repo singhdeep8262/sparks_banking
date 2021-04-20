@@ -133,5 +133,6 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, (req, res) => {
-    console.log("Welcome to the Server")
+    console.log("Welcome to the server")
+    
 });
