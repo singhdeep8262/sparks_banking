@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Customer = require("./models/user");
 
-// mongoose.connect("mongodb+srv://sumitsingh:aassdd123456789@banking.rd9xt.mongodb.net/banking?retryWrites=true&w=majority", { useUnifiedTopology: true, useNewUrlParser: true })
+// mongoose.connect(`mongodb+srv://sumitsingh:${process.env.DB_PASS}@banking.rd9xt.mongodb.net/banking?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true })
 //     .then(() => {
 //         console.log("connected");
 //     })
